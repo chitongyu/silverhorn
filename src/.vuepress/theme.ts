@@ -17,7 +17,7 @@ export default hopeTheme({
 
   logo: "/logo.svg",
 
-  repo: "silverhorn",
+  repo: "chitongyu",
 
   docsDir: "src",
 

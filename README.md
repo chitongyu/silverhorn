@@ -14,4 +14,10 @@ bash deploy.sh
 
 ## master
 
-[项目地址](https://chitongyu.github.io/silverhorn/zh/)
+[项目地址](https://chitongyu.github.io/silverhorn/)
+
+[vuepress-theme-hope](https://theme-hope.vuejs.press/zh/guide/)
+
+[vue-press](https://vuejs.press/zh/guide/)
+
+[自动部署](https://mister-hope.com/code/github/deploy.html)
