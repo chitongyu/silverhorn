@@ -3,7 +3,7 @@ import { searchProPlugin } from "vuepress-plugin-search-pro";
 import theme from "./theme.js";
 
 export default defineUserConfig({
-  base: "/silverhorn/",
+  base: "/silverhorn/zh/",
 
   locales: {
     "/": {
@@ -13,7 +13,7 @@ export default defineUserConfig({
     },
     "/zh/": {
       lang: "zh-CN",
-      title: "博客演示",
+      title: "我的博客",
       description: "vuepress-theme-hope 的博客演示",
     },
   },

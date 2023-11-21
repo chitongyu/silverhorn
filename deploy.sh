@@ -15,4 +15,7 @@ git commit -m 'deploy'
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
 git push -f git@github.com:chitongyu/silverhorn.git master:gh-pages
+
+# 发布到master
+# git push -f git@github.com:chitongyu/silverhorn.git master:master
 cd -
