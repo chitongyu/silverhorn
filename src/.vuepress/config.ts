@@ -1,10 +1,15 @@
 import { defineUserConfig } from "vuepress";
 import { searchProPlugin } from "vuepress-plugin-search-pro";
 import theme from "./theme.js";
+import { getDirname, path } from "@vuepress/utils";
 
+const __dirname = getDirname(import.meta.url);
+console.log("dirname", __dirname);
 export default defineUserConfig({
   base: "/silverhorn/",
-
+  alias: {
+    // "@images/": path.resolve(__dirname, ".vuepress/public/assets/images/"), // TODO:暂时无用
+  },
   locales: {
     "/": {
       lang: "en-US",

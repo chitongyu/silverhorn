@@ -4,19 +4,10 @@ export const zhSidebar = sidebar({
   "/zh/": [
     "",
     {
-      text: "如何使用",
-      icon: "laptop-code",
-      prefix: "demo/",
-      link: "demo/",
-      children: "structure",
-    },
-    {
-      text: "文章",
+      text: "vue相关",
       icon: "book",
-      prefix: "posts/",
+      prefix: "vue/",
       children: "structure",
     },
-    "intro",
-    "slides",
   ],
 });
